@@ -1,0 +1,59 @@
+#notebook-btn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.notebook {
+  width: 800px;
+  height: 600px;
+  border: 1px solid #ccc;
+  padding: 40px;
+  margin: 40px auto;
+  background-color: #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.page {
+  width: 100%;
+  height: 200px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #444;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.header {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.content {
+  padding: 10px;
+  background-color: #555;
+}
+
+textarea {
+  width: 100%;
+  height: 180px;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #666;
+}
